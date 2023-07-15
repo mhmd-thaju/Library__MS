@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: cornflowerblue;
+  height: auto;
+  width: 100%;
+  color: azure;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  border-radius: 0px;
+}
+.head {
+  margin-left: 15px;
+}
+.links {
+  margin-left: 25%;
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+  margin-right: 15px;
+}
+.h {
+  margin-right: 12px;
+  color: white;
+  font-weight: bold;
+  border-bottom: 3px solid white;
+  text-decoration: none;
+}
+
+.profile {
+  margin-left: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile button {
+  margin: 10px;
+}
+.profile img {
+  font-size: 15px;
+  border-radius: 50%;
+}
+
+.profile p {
+  margin-right: 10px;
+  font-size: 15px;
+}
