@@ -1,4 +1,4 @@
-import "./styles.css";
+//import "./styles.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Main } from "./pages/main";
 import { Login } from "./pages/authentication/login";
@@ -22,7 +22,7 @@ export default function App() {
           <Route path="/" element={<Main />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
-          <Route path="/landing" element={<Landing />} />
+          <Route path="/alanding" element={<Landing />} />
           <Route path="/addbook" element={<Addbook />} />
           <Route path="/adminview" element={<Adminview />} />
           <Route path="/ulanding" element={<Uland />} />

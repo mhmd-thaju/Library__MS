@@ -6,7 +6,7 @@ export const Uland = ()=>
     return(
         <div>
             <h1>
-                this is user landing page
+                this is user landing page ok
 
             </h1>
 

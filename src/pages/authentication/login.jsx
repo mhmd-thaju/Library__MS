@@ -59,6 +59,7 @@ export const Login = () => {
     resolver: yupResolver(schema)
   });
   const oSubmit = (data) => {
+    getuseres();
     console.log(data);
     console.log(userc);
     signInWithEmailAndPassword(auth, userc.email, userc.password).then(
@@ -104,3 +105,5 @@ export const Login = () => {
     </div>
   );
 };
+
+export {is_Admin}

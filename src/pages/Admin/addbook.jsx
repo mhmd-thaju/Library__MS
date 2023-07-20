@@ -4,7 +4,7 @@ import { addDoc, collection } from "@firebase/firestore";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import { yupResolver } from "@hookform/resolvers/yup";
-import is_Admin from "../authentication/login";
+import {is_Admin} from "../authentication/login";
 import * as yup from "yup";
 export const Addbook = () => {
   const [bookr, setBook] = useState({
