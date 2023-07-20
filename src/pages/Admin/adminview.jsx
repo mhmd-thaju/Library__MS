@@ -1,4 +1,4 @@
-import "./view.css";
+//import "./view.css";
 import { useEffect, useState } from "react";
 import { db } from "../../config/firebase";
 import { collection, deleteDoc, getDocs } from "firebase/firestore";
@@ -9,7 +9,7 @@ import Modal from "react-bootstrap/Modal";
 import { BiEditAlt } from "react-icons/bi";
 import { AiOutlineDelete } from "react-icons/ai";
 import { useNavigate } from "react-router-dom";
-import is_Admin from "../authentication/login";
+import {is_Admin} from "../authentication/login";
 
 function MyVerticallyCenteredModal(props) {
   const navigate = useNavigate();
